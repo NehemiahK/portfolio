@@ -1,0 +1,82 @@
+  .navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    padding: 20px 0px;
+    top: 0;
+    color: #288362;
+    background: #0d1a222e;
+    width: 100%;
+  }
+  
+  .navbar a{
+    margin-left: 40px;
+    font-size: 24px;
+  }
+  
+  .navbar a:last-child{
+    margin-right: 40px;
+  }
+  
+  .navbar .brand{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #143244;
+    border-radius: 50%;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        display: inline-block;
+        cursor: pointer;
+        margin: 20px;
+        position: sticky;
+        top: 10px;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #24a777;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+
+      .popout-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background: #0c1013cf;
+         
+      }
+
+      .popout-menu a{
+       text-decoration: none;
+       color:white;
+       font-size:1.4em;
+       padding:5px 20px;
+       
+    }
+
+    .navbar{
+      display:none;
+    }
+    
+  }

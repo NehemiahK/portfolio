@@ -1,0 +1,56 @@
+.profile-pic{
+    height: 250px;
+    background: #286584;
+    border-radius: 50%;
+  }
+
+  .App-header{
+    margin-bottom:40px;
+  }
+  
+  .picture-text{
+    justify-content: space-evenly;
+    font-size: 34px;
+    padding-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 150%;
+    margin-left:20px;
+    margin-right: 20px;
+  }
+  
+  .name{
+    font-size: 2em;
+    margin-bottom: 40px;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  .picture-text .text{
+  margin-bottom: 20px;
+  text-align: center;
+  
+  }
+  
+  .text .cta{
+    margin-top:20px;
+  }
+  .text a{
+    color: #1d8fca;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .social-links{
+    display: flex;
+    justify-content: space-evenly;
+    width:300px;
+    margin: 0px auto;
+    margin-top: 80px;
+    font-size: 3em;
+}
+
+@media only screen and (max-width: 600px) {
+    .picture-text{
+      padding-top:40px;
+    }
+  }

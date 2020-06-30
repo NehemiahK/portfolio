@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App{
+  background: #0d1a21;
+  color:white;
+  margin: 0px auto;
+  position: relative;
+}
+
+.social-links a, .navbar a{
+  text-decoration: none;
+  color: #24a777;
+  cursor: pointer;
+}
+
+.social-links a:hover, .navbar a:hover{
+  color:#1d8fca;
+}
+
+#about{
+  background: white;
+  color: #0d1a21;
+  padding-bottom: 100px;
+}
+
+#contact{
+  background: #1e2b33;
+  color: white;
+  padding-bottom: 100px;
+}
+
+#portfolio{
+  color: white;
+}
+
+
+

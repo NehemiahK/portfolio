@@ -1,0 +1,45 @@
+.portfolio{
+min-height: 450px;
+}
+
+.portfolio h2{
+    font-size: 2.4em;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.portfolio-item{
+    height: 150px;
+    width: 300px;
+    background: white;
+    border-radius: 6px;
+    margin: 20px;
+    box-shadow: 20px 12px 18px 0px black;
+    color:black;
+    padding:20px;
+    text-decoration: none;
+}
+
+.portfolio-item:hover{
+    background-color: #24a777;
+    color:white;
+    font-size: larger;
+}
+
+.portfolio-item .title{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.portfolio-item .description{
+    margin-top:10px;
+   line-height: 150%;
+}
+
+
+.portfolio-gallery{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
