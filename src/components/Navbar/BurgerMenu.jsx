@@ -16,7 +16,7 @@ const BurgerMenu = () => {
 
         {change &&
             <div className='popout-menu'>
-                <a href='/'>Me</a>
+                <a href='#header'>Me</a>
                 <a href='#about'>About</a>
                 <a href='#portfolio'>Portfolio</a>
                 <a href='#contact'>Contact</a>

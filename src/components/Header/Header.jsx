@@ -7,7 +7,7 @@ import './header.css'
 
 const Header = () => {
     return (
-        <header className="App-header">
+        <header id='header' className="App-header">
             <div className='picture-text'>
                 <div className='text'>
                     <div className='name'>Hi, I'm Nehemiah</div>
