@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/Navbar/Navbar'
-import About from './components/About/About'
-import Portfolio from './components/Portfolio/Portfolio'
-import Contact from './components/Contact/Contact'
-import Header from './components/Header/Header'
+import About from './components/About/About.jsx'
+import Portfolio from './components/Portfolio/Portfolio.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import Header from './components/Header/Header.jsx'
 
 function App() {
   return (

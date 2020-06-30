@@ -16,15 +16,15 @@ const Header = () => {
                     <a href='#portfolio' style={{ marginLeft: 5 }}>here</a>.</div>
                 </div>
                 <div>
-                    <img src={profilePic} className='profile-pic' />
+                    <img src={profilePic} className='profile-pic' alt='profile-pic' />
                 </div>
             </div>
             <div className='social-links'>
-                <a><FontAwesomeIcon icon={faTwitter} /></a>
-                <a><FontAwesomeIcon icon={faLinkedin} /></a>
-                <a><FontAwesomeIcon icon={faFreeCodeCamp} /></a>
-                <a><FontAwesomeIcon icon={faGithub} /></a>
-                <a><FontAwesomeIcon icon={faEnvelope} /></a>
+                <a href='https://twitter.com/NehemiahKiv'><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href='https://www.linkedin.com/in/nehemiah-kivelevitz-48b88a10a/'><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href='https://www.freecodecamp.org/news/author/nehemiah/'><FontAwesomeIcon icon={faFreeCodeCamp} /></a>
+                <a href='https://github.com/NehemiahK'><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="mailto:nehemiahkiv@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
         </header>)
 }
