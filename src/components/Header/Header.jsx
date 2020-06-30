@@ -20,10 +20,10 @@ const Header = () => {
                 </div>
             </div>
             <div className='social-links'>
-                <a href='https://twitter.com/NehemiahKiv'><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href='https://www.linkedin.com/in/nehemiah-kivelevitz-48b88a10a/'><FontAwesomeIcon icon={faLinkedin} /></a>
-                <a href='https://www.freecodecamp.org/news/author/nehemiah/'><FontAwesomeIcon icon={faFreeCodeCamp} /></a>
-                <a href='https://github.com/NehemiahK'><FontAwesomeIcon icon={faGithub} /></a>
+                <a href='https://twitter.com/NehemiahKiv' target='_blank' rel="noopener noreferrer" ><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href='https://www.linkedin.com/in/nehemiah-kivelevitz-48b88a10a/' target='_blank' rel="noopener noreferrer" ><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href='https://www.freecodecamp.org/news/author/nehemiah/' target='_blank' rel="noopener noreferrer" ><FontAwesomeIcon icon={faFreeCodeCamp} /></a>
+                <a href='https://github.com/NehemiahK' target='_blank' rel="noopener noreferrer" ><FontAwesomeIcon icon={faGithub} /></a>
                 <a href="mailto:nehemiahkiv@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
         </header>)
