@@ -16,10 +16,10 @@ const BurgerMenu = () => {
 
         {change &&
             <div className='popout-menu'>
-                <a href='#header'>Me</a>
-                <a href='#about'>About</a>
-                <a href='#portfolio'>Portfolio</a>
-                <a href='#contact'>Contact</a>
+                <a href='#header'>ME</a>
+                <a href='#about'>ABOUT</a>
+                <a href='#portfolio'>PORTFOLIO</a>
+                <a href='#contact'>CONTACT</a>
             </div>
         }
 

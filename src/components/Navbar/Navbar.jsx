@@ -7,9 +7,9 @@ const Navbar = () => {
             <BurgerMenu />
             <div className='navbar'>
                 <a href='#header' className='brand'>n</a>
-                <a href='#about'>About</a>
-                <a href='#portfolio'>Portfolio</a>
-                <a href='#contact'>Contact</a>
+                <a href='#about'>ABOUT</a>
+                <a href='#portfolio'>PORTFOLIO</a>
+                <a href='#contact'>CONTACT</a>
             </div>
         </>)
 }

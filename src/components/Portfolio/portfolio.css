@@ -4,8 +4,8 @@ min-height: 450px;
 
 .portfolio h2{
     font-size: 2.4em;
-    margin-bottom: 0px;
     text-align: center;
+    margin: 0px;
 }
 
 .portfolio-item{

@@ -35,7 +35,12 @@ const ContactForm = () => {
             <textarea name="message"></textarea>
             {status === "SUCCESS" && <p>Thanks! I'll be in touch soon!</p>}
             {status === "ERROR" && <p>Yikes! Something went wrong.</p>}
-            {!status && <button>Send</button>}
+            {!status &&
+                <div className='button-wrapper'>
+                    <button>Send</button>
+                </div>
+
+            }
         </form>
     )
 }

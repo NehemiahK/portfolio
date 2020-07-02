@@ -12,46 +12,46 @@
 form{
     display: flex;
     flex-direction: column;
-}
-form input{
-    padding:20px;
-    font-size: 1.2em;
-    width: 200px;
+    max-width: 350px;
     margin: 0px auto;
 }
 
 form input{
-    padding:20px;
+    padding: 10px 0px;
     font-size: 1.2em;
-    width: 200px;
+    width: 350px;
     margin: 0px auto;
 }
 
 form textarea{
-    padding:20px;
     font-size: 1.4em;
-    width: 300px;
+    width: 350px;
     height: 100px;
     margin: 0px auto;
 }
 
 form button{
-    padding: 20px; 
+    padding: 20px;
     font-size: 1.4em;
     padding: 10px 26px;
     outline: none;
     cursor: pointer;
     background: #077c7d;
     font-weight: 700;
-    margin: 0px auto;
     border: none;
     margin-top: 20px;
     border-radius: 4px;
-    color:white;
-    transition: box-shadow 0.4s;
-    box-shadow: #0f443d -4px 4px 0px 0px;
+    color: white;
+}
+
+.button-wrapper{
+    width: 350px;
+    justify-content: flex-end;
+    display: flex;
 }
 
 form label{
-    font-size: 1.4em;
+    font-size: 13px;
+    text-align: left;
+    margin-top:10px;
 }
