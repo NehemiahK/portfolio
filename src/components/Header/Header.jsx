@@ -11,9 +11,12 @@ const Header = () => {
             <div className='picture-text'>
                 <div className='text'>
                     <div className='name'>Hi, I'm Nehemiah</div>
-                    <div>A Full Stack Developer, maker of stuff, <br />tinkerer of things.</div>
-                    <div className='cta'>You can see some of that stuff
-                    <a href='#portfolio' style={{ marginLeft: 5 }}>here</a>.</div>
+                    <div className='tagline'>
+                        <div>A Full Stack Developer, maker of stuff, tinkerer of things.</div>
+                        <div className='cta'>You can see some of that stuff
+                        <a href='#portfolio' style={{ marginLeft: 5 }}>here</a>.</div>
+                    </div>
+
                 </div>
                 <div>
                     <img src={profilePic} className='profile-pic' alt='profile-pic' />

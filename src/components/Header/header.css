@@ -35,13 +35,29 @@
     margin-bottom: 20px;  
   }
   
-  .text .cta{
-    /* margin-top:10px; */
+  .picture-text .tagline{
+    font-size: 0.7em;
   }
+
   .text a{
-    color: #1d8fca;
-    text-decoration: underline;
+    color: #2cda5e;
+    text-decoration: none;
+    font-weight: bold;
     cursor: pointer;
+  }
+
+  .text a:hover {
+    color:#1d8fca;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    color: #24a777;
+    cursor: pointer;
+  }
+
+  .social-links a:hover {
+    color:#1d8fca;
   }
 
   .social-links{

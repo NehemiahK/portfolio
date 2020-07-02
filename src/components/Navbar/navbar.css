@@ -7,12 +7,21 @@
     color: #288362;
     background: #0d1a222e;
     width: 100%;
+    padding-bottom: 30px;
+  
   }
   
   .navbar a{
     margin-left: 40px;
     font-size: 16px;
+    color: white;
+    text-decoration: none;
   }
+
+  .navbar a:hover{
+    color: #225069;
+  }
+
   
   .navbar a:last-child{
     margin-right: 40px;
@@ -70,7 +79,7 @@
       .popout-menu a{
        text-decoration: none;
        color:white;
-       font-size:16px;
+       font-size:1em;
        padding:5px 20px;
        
     }

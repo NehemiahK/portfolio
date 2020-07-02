@@ -17,16 +17,6 @@ h2{
   position: relative;
 }
 
-.social-links a, .navbar a{
-  text-decoration: none;
-  color: #24a777;
-  cursor: pointer;
-}
-
-.social-links a:hover, .navbar a:hover{
-  color:#1d8fca;
-}
-
 #about{
   background: #8fafa1;
   color: #0d1a21;
